@@ -1,0 +1,12 @@
+注:
+    1.导入loader必须安装对应依赖，如：
+            // 使用loader处理css文件
+                module: {
+                    rules: [{
+                        test: /\.css$/,
+                        use: ['style-loader', 'css-loader']
+                    }]
+                },
+    必须执行：  npm install -D style-loader， npm install -D css-loader  
+    2.npm start
+    执行npm start命令会出现dist文件，这里没设置入口和出口文件，是因为webpack的默认入口文件是src下的index.js，出口文件为dist目录下的main.js
