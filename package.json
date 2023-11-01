@@ -5,10 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --mode development",
-    "dev": "webpack-dev-server --config webpack.config.js",
-    "start:dev": "webpack-dev-server --config ./config//webpack.dev.js",
-    "start:prod": "webpack-dev-server --config ./config/webpack.prod.js"
+    "start": "webpack --mode development"
   },
   "keywords": [],
   "author": "",
